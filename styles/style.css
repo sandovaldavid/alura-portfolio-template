@@ -101,6 +101,7 @@ body {
 
 .presentacion__imagen {
 	width: 50%;
+	padding-left: 3rem;
 }
 
 .footer {
@@ -163,6 +164,11 @@ body {
 	.footer__contenido {
 		flex-direction: column;
 		gap: 20px;
+	}
+
+	.presentacion__imagen {
+		padding-left: 0;
+		margin-bottom: 2rem;
 	}
 }
 
